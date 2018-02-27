@@ -1,0 +1,74 @@
+/*! Color themes for Google Code Prettify | MIT License | github.com/jmblog/color-themes-for-google-code-prettify */
+pre {
+
+}
+.prettyprint {
+    background: #2d2a2a;
+    font-family: Menlo, Bitstream Vera Sans Mono, DejaVu Sans Mono, Monaco, Consolas, monospace;
+    border: 0!important
+}
+
+.pln {
+    color: #A3C1CD;
+}
+
+ol.linenums {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #5a5454;
+}
+
+li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9 {
+    padding-left: 1em;
+    background-color: #2d2a2a;
+    list-style-type: decimal
+}
+
+.nocode {
+    color: #867c7c
+}
+
+@media screen {
+    .str {
+        color: #B7E876
+    }
+    .kwd {
+        color: #c397d8
+    }
+    .com {
+        color: #969896
+    }
+    .typ {
+        color: #7aa6da
+    }
+    .lit {
+        color: #e78c45
+    }
+    .pun {
+        color: #A3C1CD;
+    }
+    .opn {
+        color: #eaeaea
+    }
+    .clo {
+        color: #eaeaea
+    }
+    .tag {
+        color: #76D4FF
+    }
+    .atn {
+        color: #FFC251
+    }
+    .atv {
+        color: #B7E876
+    }
+    .dec {
+        color: #e78c45
+    }
+    .var {
+        color: #d54e53
+    }
+    .fun {
+        color: #7aa6da
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "spinner.js",
+  "version": "1.0.4",
+  "homepage": "https://github.com/marando/spinner.js/",
+  "authors": [
+    "Ashley Marando <a.marando@me.com>"
+  ],
+  "description": "",
+  "keywords": [
+    "jquery",
+    "plugin",
+    "jquery-plugin",
+    "spinner",
+    "loading"
+  ],
+  "main": "src/spinner.js",
+  "license": "GNU2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4"
+  }
+}

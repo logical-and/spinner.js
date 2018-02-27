@@ -1,0 +1,30 @@
+{
+  "name": "spinner.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marando/spinner.js.git"
+  },
+  "author": "Ashley Marando <a.marando@me.com>",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/marando/spinner.js/issues"
+  },
+  "homepage": "https://github.com/marando/spinner.js#readme",
+  "dependencies": {
+    "jquery": "^2.2.4"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-header": "^1.8.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3"
+  }
+}

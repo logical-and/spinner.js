@@ -1,0 +1,125 @@
+<!--
+///
+///  spinner.js
+///
+///  https://github.com/marando/zoomable.js/
+///
+///
+///  Copyright (c) Ashley Marando
+///  Released under the GNU2 license
+///
+///
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lora:400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap and app CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <!-- Font Awesome -->
+    <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+
+    <!-- jQuery and spinner.js -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+    <script type="text/javascript" src="js/spinner.min.js"></script>
+    <script type="text/javascript" src="js/examples.js"></script>
+    <script type="text/javascript" src="js/demo.js"></script>
+  </head>
+  <body class="">
+
+    <nav class="navbar navbar-dark bg-inverse navbar-fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">spinner.js</a>
+        <ul class="nav navbar-nav" style="display: none">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Demos</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav pull-xs-right">
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/marando/spinner.js">GitHub</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container main">
+      <span class="pull-xs-right test2"></span>
+      <h1 class="display-4 title">spinner.js</h1>
+      <hr>
+      <p class="lead">
+        A jQuery plugin that allows you to easily generate highly customizable loading animations.
+      </p>
+      <br>
+      <h1>Examples</h1>
+      <p>
+        The easiest way to use spinner.js is like this:
+      </p>
+      <p>
+        <pre class="prettyprint linenums"><code class="language-html"><span class="nocode">&lt;-- Include jquery and spinner.min.js --&gt;</span>
+&lt;script type="text/javascript" src="jquery.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="spinner.min.js"&gt;&lt;/script&gt;
+
+&lt;div class="wave"&gt;&lt;/div&gt;
+&lt;div class="domino"&gt;&lt;/div&gt;</code>
+
+&lt;script type="text/javascript"&gt;
+  <code class="language-javascript">$('.wave').spinner('wave');
+  $('.domino').spinner('domino');
+&lt;/script&gt;</code></pre>
+      </p>
+      <p>
+        Configuration options can be passed as the second argument:
+      </p>
+      <p>
+        <pre class="prettyprint linenums"><code class="language-javascript">$('body').spinner('wave', {
+  'bars':    '7',
+  'height':  '24px',
+  'width':   '15px',
+  'spacing': '1px',
+  'speed':   '92',
+  'opacity': '1',
+  'color':   '#383b3d'
+});</code></pre>
+      </p>
+      <br>
+<h1>Demos</h1>
+<p>
+  The demos below can be customized, and if you click the code button the code required to generate what was configured will be genereated.
+</p><br>
+
+    </div>
+
+
+    <div class="jumbotron footer navbar-dark bg-inverse">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="footer-header">spinner.js</div>
+            <div class="footer-text">©2015 Ashley Marando</div>
+          </div>
+          <div class="col-sm-6">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
